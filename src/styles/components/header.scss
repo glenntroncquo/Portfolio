@@ -1,15 +1,16 @@
 .header {
-  margin-bottom: 72px;
+  // margin-bottom: 72px;
+  padding: 16px 16px 0px;
 }
 
 .hamburger {
   position: absolute;
   z-index: 1;
   right: 0;
-  // margin-right: -32px;
 }
 .navbar-mobile {
   position: relative;
+  z-index: 10;
   a {
     list-style-type: none;
     text-decoration: none;
@@ -19,6 +20,13 @@
     &:hover {
       color: $font-color-lime-green;
     }
+  }
+
+  > a {
+    position: absolute;
+    left: 0;
+    padding-top: 8px;
+    color: $font-color-lime-green;
   }
 
   &-links {
@@ -67,11 +75,13 @@
 }
 
 @media (min-width: 720px) {
+ 
   .navbar-mobile {
     display: none;
   }
   .header {
     margin-bottom: 48px;
+    padding: 48px 72px 0px;
   }
 
   .navbar {
@@ -86,6 +96,11 @@
       &:hover {
         color: $font-color-lime-green;
       }
+    }
+
+    > a {
+      color: $font-color-lime-green;
+      font-size: 18px;
     }
 
     &-items {

@@ -12,6 +12,8 @@ export const MobileNavigation: React.FC = () => {
 
   return (
     <nav className='navbar-mobile'>
+      <a href='#'>Glenn Troncquo</a>
+
       <div className='hamburger'>
         <HamburgerSpring
           isActive={isActive}
@@ -20,20 +22,32 @@ export const MobileNavigation: React.FC = () => {
           buttonWidth={24}
         />
       </div>
-      <ul className={isActive ? 'navbar-mobile-links open' : 'navbar-mobile-links'}>
+      <ul
+        className={
+          isActive ? 'navbar-mobile-links open' : 'navbar-mobile-links'
+        }
+      >
         <li>
-          <a href='#'>Home</a>
+          <a href='#' onClick={toggleButton}>
+            Home
+          </a>
         </li>
         <li>
-          <a href='#'>Skills</a>
+          <a href='#' onClick={toggleButton}>
+            Skills
+          </a>
         </li>
 
         <li>
-          <a href='#'>Projects</a>
+          <a href='#' onClick={toggleButton}>
+            Projects
+          </a>
         </li>
 
         <li>
-          <a href='#'>Contact</a>
+          <a href='#' onClick={toggleButton}>
+            Contact
+          </a>
         </li>
       </ul>
     </nav>

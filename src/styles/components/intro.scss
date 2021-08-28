@@ -1,13 +1,87 @@
-.intro{
-    display: flex;
-    justify-content: space-between;
-    h2 {
-        font-size: 48px;
-    }
+.intro {
+  overflow: hidden;
+  position: relative;
+  height: 500px;
+  margin-top: 72px;
+  padding: 0px 16px;
 
-    &-illustrations{
-        img {
-            width: 160px;
-        }
+  &-img {
+    background-image: url('glenn-small.svg');
+    background-repeat: no-repeat;
+    width: 180px;
+    height: 180px;
+    margin: 0 auto;
+    margin-bottom: 32px;
+  }
+
+  &-header {
+    font-size: 40px;
+    margin-bottom: 24px;
+  }
+  &-text {
+    margin-bottom: 24px;
+    max-width: 240px;
+    color: #5f5f5f;
+  }
+  &-button {
+    background-color: $font-color-lime-green;
+    border-color: none;
+    border: none;
+    width: 100px;
+    height: 28px;
+    border-radius: 4px;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+  }
+
+  &-svg {
+    position: absolute;
+    top: 300px;
+    left: 200px;
+  }
+
+  &-pokemon {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    cursor: pointer;
+    .bounce:hover {
+      animation: bounce 1s infinite linear;
     }
+  }
+
+  @keyframes bounce {
+    20%,
+    50%,
+    80%,
+    to {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-30px);
+    }
+    70% {
+      transform: translateY(-15px);
+    }
+    90% {
+      transform: translateY(-4px);
+    }
+  }
+}
+
+.pokemon{
+  &-img{
+    display: block;
+    margin: 0 auto;
+  }
+  &-text{
+    font-weight: 700;
+    > span{
+      color: red;
+    }
+  }
 }
