@@ -1,9 +1,9 @@
 .intro {
   overflow: hidden;
   position: relative;
-  height: 500px;
   margin-top: 72px;
-  padding: 0px 16px;
+  padding: 0px 32px;
+  height: 500px;
 
   &-img {
     background-image: url('glenn-small.svg');
@@ -19,8 +19,8 @@
     margin-bottom: 24px;
   }
   &-text {
-    margin-bottom: 24px;
-    max-width: 240px;
+    margin-bottom: 48px;
+    max-width: 320px;
     color: #5f5f5f;
   }
   &-button {
@@ -28,11 +28,12 @@
     border-color: none;
     border: none;
     width: 100px;
-    height: 28px;
+    height: 32px;
     border-radius: 4px;
     color: white;
     font-weight: 700;
     cursor: pointer;
+    margin-bottom: 32px;
   }
 
   &-svg {
@@ -41,47 +42,52 @@
     left: 200px;
   }
 
-  &-pokemon {
-    display: flex;
-    justify-content: center;
-    position: absolute;
-    bottom: 10px;
-    left: 0;
-    right: 0;
-    cursor: pointer;
-    .bounce:hover {
-      animation: bounce 1s infinite linear;
-    }
+  &-desktop {
+    max-width: 500px;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
   }
 
-  @keyframes bounce {
-    20%,
-    50%,
-    80%,
-    to {
-      transform: translateY(0);
-    }
-    40% {
-      transform: translateY(-30px);
-    }
-    70% {
-      transform: translateY(-15px);
-    }
-    90% {
-      transform: translateY(-4px);
+  &-ellipse {
+    position: absolute;
+    height: 350px;
+    right: -150px;
+    bottom: -220px;
+  }
+
+  &-socials{
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    right: 16px;
+    bottom: 4px;
+
+    img {
+      height: 18px;
+      margin-bottom: 12px;
+      
     }
   }
 }
 
-.pokemon{
-  &-img{
-    display: block;
-    margin: 0 auto;
+@media (min-width: 720px) {
+  .intro {
+    padding: 0px 72px;
   }
-  &-text{
-    font-weight: 700;
-    > span{
-      color: red;
+}
+
+@media (min-width: 980px) {
+  .intro {
+    padding: 0px 140px;
+
+    &-header {
+      font-size: 48px;
+    }
+    &-text {
+      font-size: 20px;
+      max-width: 400px;
     }
   }
 }

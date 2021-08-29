@@ -1,5 +1,6 @@
 import React from 'react';
 import { Banner } from './components/Banner';
+import { Cards } from './components/Cards';
 import { Intro } from './components/Intro';
 
 import { MobileNavigation } from './components/MobileNavigation';
@@ -18,6 +19,7 @@ function App() {
       <div className='body'>
         <Intro />
         <Banner />
+        <Cards />
       </div>
     </div>
   );
