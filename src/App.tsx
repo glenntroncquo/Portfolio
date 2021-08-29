@@ -5,6 +5,7 @@ import { Intro } from './components/Intro';
 
 import { MobileNavigation } from './components/MobileNavigation';
 import { Navigation } from './components/Navigation';
+import { Projects } from './components/Projects';
 
 import './styles/screen.scss';
 
@@ -20,6 +21,7 @@ function App() {
         <Intro />
         <Banner />
         <Cards />
+        <Projects />
       </div>
     </div>
   );

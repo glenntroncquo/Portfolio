@@ -3,13 +3,13 @@ import React from 'react';
 export const Navigation = () => {
   return (
     <nav className='navbar'>
-      <a href='#'>Glenn Troncquo</a>
+      <a href=''>Glenn Troncquo</a>
       <ul className='navbar-items'>
         <li>
-          <a href='#'>Home</a>
+          <a href=''>Home</a>
         </li>
         <li>
-          <a href='#'>Skills</a>
+          <a href='#skills'>Skills</a>
         </li>
         <li>
           <a href='#'>Projects</a>

@@ -5,6 +5,14 @@
   padding: 0px 32px;
   height: 500px;
 
+  max-width: 1250px;
+    margin: 0 auto;
+
+  > div {
+    max-width: 1250px;
+    margin: 0 auto;
+  }
+
   &-img {
     background-image: url('glenn-small.svg');
     background-repeat: no-repeat;
@@ -12,6 +20,7 @@
     height: 180px;
     margin: 0 auto;
     margin-bottom: 32px;
+    
   }
 
   &-header {
@@ -56,7 +65,7 @@
     bottom: -220px;
   }
 
-  &-socials{
+  &-socials {
     position: absolute;
     z-index: 1;
     display: flex;
@@ -64,9 +73,16 @@
     right: 16px;
     bottom: 4px;
 
-    img {
-      height: 18px;
-      margin-bottom: 12px;
+    svg {
+      height: 22px;
+      margin-bottom: 10px;
+      fill: #e6e6ee;
+
+
+      &:hover{
+        cursor: pointer;
+        fill: white;
+      }
       
     }
   }
@@ -75,12 +91,20 @@
 @media (min-width: 720px) {
   .intro {
     padding: 0px 72px;
+
+    &-ellipse {
+      position: absolute;
+      height: 500px;
+      right: -200px;
+      bottom: -220px;
+    }
   }
 }
 
 @media (min-width: 980px) {
   .intro {
     padding: 0px 140px;
+    
 
     &-header {
       font-size: 48px;
@@ -88,6 +112,26 @@
     &-text {
       font-size: 20px;
       max-width: 400px;
+    }
+
+    &-ellipse {
+      position: absolute;
+      height: 600px;
+      right: -250px;
+      bottom: -250px;
+    }
+
+    &-socials {
+  
+      svg {
+        height: 28px;
+        margin-bottom: 12px;
+      }
+    }
+
+    &-img {
+      // width: 210px;
+      // height: 210px;
     }
   }
 }

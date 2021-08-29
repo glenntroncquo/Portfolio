@@ -28,12 +28,12 @@ export const MobileNavigation: React.FC = () => {
         }
       >
         <li>
-          <a href='#' onClick={toggleButton}>
+          <a href='' onClick={toggleButton}>
             Home
           </a>
         </li>
         <li>
-          <a href='#' onClick={toggleButton}>
+          <a href='#skills' onClick={toggleButton}>
             Skills
           </a>
         </li>

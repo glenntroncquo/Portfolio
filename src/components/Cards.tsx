@@ -2,7 +2,7 @@ import React from 'react';
 
 export const Cards: React.FC = () => {
   return (
-    <div className='cards'>
+    <div className='cards' id='skills'>
       <div className='cards-wrapper'>
         <div className='cards-layout'>
           <img src='frontend.svg' alt='image of frontend' />
@@ -13,7 +13,7 @@ export const Cards: React.FC = () => {
           </p>
 
           <p className='cards-subtitle'>Languages I speak:</p>
-          <p>
+          <p className='cards-languages'>
             HTML
             <br />
             CSS
@@ -29,25 +29,23 @@ export const Cards: React.FC = () => {
         </div>
         <div className='cards-layout'>
           <img src='frontend.svg' alt='image of frontend' />
-          <h3 className='cards-title'>Front-end Developer</h3>
+          <h3 className='cards-title'>Back-end Developer</h3>
           <p className='cards-info'>
             I like to code things from scratch, and enjoy bringing ideas to life
             in the browser.
           </p>
 
           <p className='cards-subtitle'>Languages I speak:</p>
-          <p>
-            HTML
+          <p className='cards-languages'>
+            Asp.Net Core
             <br />
-            CSS
+            NodeJs
             <br />
-            SASS/SCSS
+            MySQL
             <br />
-            JS
+            CosmosDB
             <br />
-            ReactJs
-            <br />
-            VueJs
+            NoSQL
           </p>
         </div>
       </div>
