@@ -136,7 +136,52 @@
   }
 }
 
+.github-button {
+  display: block;
+  max-width: 250px;
+  max-height: 36px;
+  border: 2px solid $font-color-lime-green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  text-decoration: none;
+  border-radius: 28px;
+
+  transition: all 0.3s ease-out;
+  margin-top: 32px;
+
+  svg {
+    fill: $font-color-lime-green;
+    width: 20px;
+    margin-right: 16px;
+  }
+
+  p {
+    text-decoration: none;
+    color: $font-color-lime-green;
+    // font-size: 20px;
+  }
+}
+
+.github-button:hover {
+  background-color: $font-color-lime-green;
+  svg {
+    fill: white;
+  }
+  p {
+    color: white;
+  }
+}
+
 @media (min-width: 720px) {
+  .github-button{
+    max-height: 54px;
+
+    p{
+      font-size: 20px;
+    }
+  }
   .project {
     &-slider {
       // width: calc(300px * 8);
