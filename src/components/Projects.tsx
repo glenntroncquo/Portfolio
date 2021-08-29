@@ -12,40 +12,67 @@ export const Projects: React.FC = () => {
       <div className='project-images-wrapper'>
         <div className='project-slider'>
           <div className='project-item'>
-            <img src='Iphone.svg' alt='' style={{ width: 420 }} />
+            <img className='project-item-img' src='iPhone.svg' alt='' />
+            <div className='project-item-info'>
+              <h3>Meal App</h3>
+              <p className='project-item-info-p'>
+                Meal planning app {'->'} <br />
+                Sign up / Login. Explore new meals and add meals to calendar or
+                favorites.
+              </p>
+
+              <p>Technologies: React Native, Firebase, Spoonacular API</p>
+
+              <a href=''>Visit Github {'>'}</a>
+            </div>
           </div>
+
           <div className='project-item'>
-            <img src='Iphone.svg' alt='' style={{ width: 420 }} />
+            <img className='project-item-img' src='iPhone.svg' alt='' />
+            <div className='project-item-info'>
+              <h3>Meal App</h3>
+              <p className='project-item-info-p'>
+                Meal planning app {'->'} <br />
+                Sign up / Login. Explore new meals and add meals to calendar or
+                favorites.
+              </p>
+
+              <p>Technologies: React Native, Firebase, Spoonacular API</p>
+
+              <a href=''>Visit Github {'>'}</a>
+            </div>
           </div>
+
           <div className='project-item'>
-            <img src='Iphone.svg' alt='' style={{ width: 420 }} />
+            <img className='project-item-img' src='iPhone.svg' alt='' />
+            <div className='project-item-info'>
+              <h3>Meal App</h3>
+              <p className='project-item-info-p'>
+                Meal planning app {'->'} <br />
+                Sign up / Login. Explore new meals and add meals to calendar or
+                favorites.
+              </p>
+
+              <p>Technologies: React Native, Firebase, Spoonacular API</p>
+
+              <a href=''>Visit Github {'>'}</a>
+            </div>
           </div>
+
           <div className='project-item'>
-            <img src='Iphone.svg' alt='' style={{ width: 420 }} />
-          </div>
-          <div className='project-item'>
-            <img src='Iphone.svg' alt='' style={{ width: 420 }} />
-          </div>
-          <div className='project-item'>
-            <img src='Iphone.svg' alt='' style={{ width: 420 }} />
-          </div>
-          <div className='project-item'>
-            <img src='Iphone.svg' alt='' style={{ width: 420 }} />
-          </div>
-          <div className='project-item'>
-            <img src='Iphone.svg' alt='' style={{ width: 420 }} />
-          </div>
-          <div className='project-item'>
-            <img src='Iphone.svg' alt='' style={{ width: 420 }} />
-          </div>
-          <div className='project-item'>
-            <img src='Iphone.svg' alt='' style={{ width: 420 }} />
-          </div>
-          <div className='project-item'>
-            <img src='Iphone.svg' alt='' style={{ width: 420 }} />
-          </div>
-          <div className='project-item'>
-            <img src='Iphone.svg' alt='' style={{ width: 420 }} />
+            <img className='project-item-img' src='iPhone.svg' alt='' />
+            <div className='project-item-info'>
+              <h3>Meal App</h3>
+              <p className='project-item-info-p'>
+                Meal planning app {'->'} <br />
+                Sign up / Login. Explore new meals and add meals to calendar or
+                favorites.
+              </p>
+
+              <p>Technologies: React Native, Firebase, Spoonacular API</p>
+
+              <a href=''>Visit Github {'>'}</a>
+            </div>
           </div>
         </div>
       </div>

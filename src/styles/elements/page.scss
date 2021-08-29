@@ -12,4 +12,15 @@
   }
 
   padding-bottom: 32px;
+
+  ::-moz-selection { /* Code for Firefox */
+    color: white;
+    background: $font-color-lime-green;
+  }
+
+  ::selection{
+    color: white;
+    background: $font-color-lime-green;
+    
+  }
 }

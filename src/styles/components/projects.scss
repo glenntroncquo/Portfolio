@@ -25,16 +25,76 @@
     -moz-box-shadow: -1px 1px 11px 1px rgba(203, 203, 203, 0.75);
     display: block;
     margin: 16px;
+    flex-shrink: 0;
+    position: relative;
 
-    width: 420px;
-    height: 330px;
-    background-color: red;
+    border-radius: 16px;
 
-    // > img:hover{
-    //     display: none;
-    // }
-  
+    width: 200px;
+    height: 250px;
+    img {
+      width: 200px;
+      height: 250px;
+    }
 
+    &-info {
+      background-color: #141c3a;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+
+      border-radius: 16px;
+      padding: 16px;
+      box-shadow: -1px 1px 11px 1px rgba(203, 203, 203, 0.75);
+      -webkit-box-shadow: -1px 1px 11px 1px rgba(203, 203, 203, 0.75);
+      -moz-box-shadow: -1px 1px 11px 1px rgba(203, 203, 203, 0.75);
+
+      opacity: 0;
+      transition: all 0.4s ease-out;
+
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      line-height: 22px;
+
+      h3 {
+        font-size: 22px;
+        color: white;
+        margin-bottom: 16px;
+      }
+
+      p {
+        color: white;
+        margin-bottom: 16px;
+      }
+      p:first-child {
+        display: none;
+      }
+      &-p {
+        display: none;
+      }
+      a {
+        position: absolute;
+        bottom: 32px;
+        text-decoration: none;
+        color: white;
+        border: 2px solid $font-color-lime-green;
+        border-radius: 32px;
+        padding: 8px 16px;
+        transition: ease-out 0.3s;
+      }
+
+      a:hover {
+        background-color: $font-color-lime-green;
+      }
+    }
+
+    &-info:hover {
+      opacity: 95%;
+    }
   }
 
   &-images-wrapper {
@@ -46,20 +106,58 @@
 
   &-slider {
     display: flex;
-    width: calc(250px * 12);
-    animation: scroll 20s linear infinite;
+    justify-content: center;
+    flex-wrap: wrap;
+    // width: calc(250px * 6);
+    // animation: scroll 10s linear infinite;
     &:hover {
       animation-play-state: paused;
     }
   }
 }
 
-@keyframes scroll {
+// @keyframes scroll {
+//   0% {
+//     transform: translateX(0);
+//   }
+
+//   100% {
+//     transform: translateX(calc(-200px * 3));
+//   }
+// }
+
+@keyframes scroll-big {
   0% {
     transform: translateX(0);
   }
 
   100% {
-    transform: translateX(calc(-420px * 6));
+    transform: translateX(calc(-300px * 4));
+  }
+}
+
+@media (min-width: 720px) {
+  .project {
+    &-slider {
+      // width: calc(300px * 8);
+      // animation: scroll-big 5s linear infinite;
+    }
+
+    &-item {
+      flex-shrink: 0;
+      width: 300px;
+      height: 400px;
+      &-img {
+        width: 300px !important;
+        height: 400px !important;
+      }
+
+      &-info {
+        padding: 32px;
+        &-p {
+          display: block;
+        }
+      }
+    }
   }
 }
