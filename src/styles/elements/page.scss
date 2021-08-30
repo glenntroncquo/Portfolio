@@ -6,18 +6,15 @@
     width: 6px;
     border-left: 1px solid #e6ecf8;
   }
-
   ::-webkit-scrollbar-thumb {
     background-color: #141c3a80;
   }
 
-  padding-bottom: 32px;
 
-  ::-moz-selection { /* Code for Firefox */
+  ::-moz-selection {
     color: white;
     background: $font-color-lime-green;
   }
-
   ::selection{
     color: white;
     background: $font-color-lime-green;
