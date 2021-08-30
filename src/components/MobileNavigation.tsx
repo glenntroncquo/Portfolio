@@ -12,7 +12,7 @@ export const MobileNavigation: React.FC = () => {
 
   return (
     <nav className='navbar-mobile'>
-      <a href='#'>Glenn Troncquo</a>
+      <a href='.'>Glenn Troncquo</a>
 
       <div className='hamburger'>
         <HamburgerSpring
@@ -28,7 +28,7 @@ export const MobileNavigation: React.FC = () => {
         }
       >
         <li>
-          <a href='' onClick={toggleButton}>
+          <a href='.' onClick={toggleButton}>
             Home
           </a>
         </li>
@@ -39,13 +39,13 @@ export const MobileNavigation: React.FC = () => {
         </li>
 
         <li>
-          <a href='#' onClick={toggleButton}>
+          <a href='#projects' onClick={toggleButton}>
             Projects
           </a>
         </li>
 
         <li>
-          <a href='#' onClick={toggleButton}>
+          <a href='mailto:glenntroncquo1@gmail.com' onClick={toggleButton}>
             Contact
           </a>
         </li>

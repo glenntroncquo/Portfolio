@@ -24,7 +24,7 @@ export const Banner = () => {
         />
       </div>
 
-      <div className='banner-info'>
+      <div className='banner-info' id='skills'>
         <div className='banner-text'>
           <div>2</div>
           <div>

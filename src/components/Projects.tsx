@@ -2,11 +2,13 @@ import React from 'react';
 
 export const Projects: React.FC = () => {
   return (
-    <div className='project'>
+    <div className='project' id='projects'>
       <h3 className='project-header'> My Recent Works</h3>
       <p className='project-info'>
         Here are a few projects I've already worked on. Want to get in touch?{' '}
-        <span>Email me.</span>
+        <span>
+          <a href='mailto:glenntroncquo1@gmail.com'>Email me.</a>{' '}
+        </span>
       </p>
 
       <div className='project-images-wrapper'>
