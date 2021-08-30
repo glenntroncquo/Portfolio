@@ -6,14 +6,12 @@ export const Projects: React.FC = () => {
       <h3 className='project-header'> My Recent Works</h3>
       <p className='project-info'>
         Here are a few projects I've already worked on. Want to get in touch?{' '}
-        <span>
-          <a href='mailto:glenntroncquo1@gmail.com'>Email me.</a>{' '}
-        </span>
+        <a href='mailto:glenntroncquo1@gmail.com'>Email me.</a>{' '}
       </p>
 
       <div className='project-images-wrapper'>
         <div className='project-slider'>
-          <div className='project-item'>
+          <div className='project-item' data-aos='zoom-in'>
             <img className='project-item-img' src='iPhone.svg' alt='' />
             <div className='project-item-info'>
               <h3>Meal App</h3>
@@ -25,43 +23,50 @@ export const Projects: React.FC = () => {
 
               <p>Technologies: React Native, Firebase, Spoonacular API</p>
 
-              <a href=''>Visit Github {'>'}</a>
+              <a href='https://github.com/glenntroncquo/Meal_App'>
+                Visit Github {'>'}
+              </a>
             </div>
           </div>
 
-          <div className='project-item'>
-            <img className='project-item-img' src='iPhone.svg' alt='' />
+          <div className='project-item' data-aos='zoom-in' data-aos-delay='250'>
+            <img className='project-item-img' src='revolut.png' alt='' />
             <div className='project-item-info'>
-              <h3>Meal App</h3>
+              <h3>Animation School Project</h3>
               <p className='project-item-info-p'>
-                Meal planning app {'->'} <br />
-                Sign up / Login. Explore new meals and add meals to calendar or
-                favorites.
+                Make a landing page for a brand of choice. Animate 4 sections of
+                the page.
               </p>
 
-              <p>Technologies: React Native, Firebase, Spoonacular API</p>
+              <p>Technologies: Html, CSS, After Effects</p>
 
-              <a href=''>Visit Github {'>'}</a>
+              <a href='https://glenntroncquo.github.io/Motion_Design/'>
+                Visit Website {'>'}
+              </a>
             </div>
           </div>
 
-          <div className='project-item'>
-            <img className='project-item-img' src='iPhone.svg' alt='' />
+          <div className='project-item' data-aos='zoom-in' data-aos-delay='500'>
+            <img
+              className='project-item-img'
+              src='asp.net.png'
+              alt='asp.net backend project'
+            />
             <div className='project-item-info'>
-              <h3>Meal App</h3>
+              <h3>School Backend Project</h3>
               <p className='project-item-info-p'>
-                Meal planning app {'->'} <br />
-                Sign up / Login. Explore new meals and add meals to calendar or
-                favorites.
+                ASP.NET WebAPI backend project with Docker.
               </p>
 
-              <p>Technologies: React Native, Firebase, Spoonacular API</p>
+              <p>Technologies: ASP.NET, Docker, SQL</p>
 
-              <a href=''>Visit Github {'>'}</a>
+              <a href='https://github.com/glenntroncquo/Project_Backend'>
+                Visit Github {'>'}
+              </a>
             </div>
           </div>
 
-          <div className='project-item'>
+          <div className='project-item' data-aos='zoom-in' data-aos-delay='750'>
             <img className='project-item-img' src='iPhone.svg' alt='' />
             <div className='project-item-info'>
               <h3>Meal App</h3>
@@ -79,7 +84,11 @@ export const Projects: React.FC = () => {
         </div>
       </div>
 
-      <a href='https://github.com/glenntroncquo' className='github-button'>
+      <a
+        href='https://github.com/glenntroncquo'
+        target='_blank'
+        className='github-button'
+      >
         <span>
           <svg
             xmlns='http://www.w3.org/2000/svg'

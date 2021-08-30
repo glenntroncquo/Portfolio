@@ -10,7 +10,7 @@ export const FooterBox = () => {
                 Interested in working together? Let's queue up a chat!
             </p>
 
-            <a href="">Let's do this</a>
+            <a href="mailto:glenntroncquo1@gmail.com">Let's do this</a>
         </div>
     )
 }

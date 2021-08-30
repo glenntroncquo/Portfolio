@@ -9,17 +9,28 @@ export const Intro = () => {
   return (
     <section className='intro'>
       <div>
-        <div data-aos='fade-up' className='intro-img'></div>
+        <div
+          data-aos='fade'
+          data-aos-duration='500'
+          data-aos-easing='ease-in-out'
+          className='intro-img'
+        ></div>
 
-        <h2 className='intro-header'>Hi, I'm Glenn</h2>
-        <p className='intro-text'>
-          A passionate full stack development student based in Belgium,
-          East-Flanders 😁
-        </p>
+        <div
+          data-aos='fade-right'
+          data-aos-duration='1000'
+          data-aos-easing='ease-in-out'
+        >
+          <h2 className='intro-header'>Hi, I'm Glenn</h2>
+          <p className='intro-text'>
+            A passionate full stack development student based in Belgium,
+            East-Flanders 😁
+          </p>
 
-        <a className='intro-button' href='mailto:glenntroncquo1@gmail.com'>
-          Contact Me
-        </a>
+          <a className='intro-button' href='mailto:glenntroncquo1@gmail.com'>
+            Contact Me
+          </a>
+        </div>
       </div>
 
       <div className='intro-socials'>
@@ -79,7 +90,14 @@ export const Intro = () => {
         </a>
       </div>
 
-      <img className='intro-ellipse' src='Ellipse.svg' alt='' />
+      <img
+        data-aos='fade-left'
+        data-aos-duration='1000'
+        data-aos-easing='ease-in-out'
+        className='intro-ellipse'
+        src='Ellipse.svg'
+        alt=''
+      />
     </section>
   );
 };

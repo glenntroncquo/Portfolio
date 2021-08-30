@@ -2,13 +2,13 @@ import React from 'react';
 
 export const Cards: React.FC = () => {
   return (
-    <div className='cards' >
+    <div className='cards'>
       <div className='cards-wrapper'>
-        <div className='cards-layout'>
+        <div className='cards-layout' data-aos="flip-left" data-aos-duration="1000">
           <img src='frontend.svg' alt='frontend logo' />
           <h3 className='cards-title'>Front-end Developer</h3>
           <p className='cards-info'>
-            I like to code things from scratch, and enjoy bringing ideas to life
+            I like to code things from scratch and enjoy bringing ideas to life
             in the browser.
           </p>
 
@@ -28,7 +28,7 @@ export const Cards: React.FC = () => {
           </p>
         </div>
 
-        <div className='cards-layout'>
+        <div className='cards-layout'data-aos="flip-left" data-aos-duration="1000">
           <img src='backend.svg' alt='logo backend' />
           <h3 className='cards-title'>Back-end Developer</h3>
           <p className='cards-info'>
@@ -50,7 +50,7 @@ export const Cards: React.FC = () => {
           </p>
         </div>
 
-        <div className='cards-layout'>
+        <div className='cards-layout' data-aos='flip-left' data-aos-duration="1000">
           <img src='Website.svg' alt='Others' />
           <h3 className='cards-title'>Other Skillsets</h3>
           <p className='cards-info'>
@@ -58,7 +58,7 @@ export const Cards: React.FC = () => {
           </p>
 
           <p className='cards-subtitle'>Other skills:</p>
-          
+
           <p className='cards-languages'>
             Git
             <br />

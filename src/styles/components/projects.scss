@@ -11,9 +11,9 @@
     font-size: 18px;
     margin-bottom: 72px;
 
-    > span {
+    a {
+      text-decoration: none;
       color: $font-color-lime-green;
-      cursor: pointer;
       &:hover {
         text-decoration: underline;
       }
@@ -36,6 +36,7 @@
     img {
       width: 200px;
       height: 250px;
+      border-radius: 16px;
     }
 
     &-info {
@@ -176,10 +177,10 @@
 }
 
 @media (min-width: 720px) {
-  .github-button{
+  .github-button {
     max-height: 54px;
 
-    p{
+    p {
       font-size: 20px;
     }
   }
