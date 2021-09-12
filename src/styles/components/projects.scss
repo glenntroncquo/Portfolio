@@ -100,9 +100,9 @@
       }
     }
 
-    // &-info:hover {
-    //   opacity: 95%;
-    // }
+    &-info:hover {
+      opacity: 95%;
+    }
 
     // :hover{
     //   display: none;
@@ -124,23 +124,11 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    // width: calc(250px * 6);
-    // animation: scroll 10s linear infinite;
     &:hover {
       animation-play-state: paused;
     }
   }
 }
-
-// @keyframes scroll {
-//   0% {
-//     transform: translateX(0);
-//   }
-
-//   100% {
-//     transform: translateX(calc(-200px * 3));
-//   }
-// }
 
 @keyframes scroll-big {
   0% {
@@ -199,11 +187,6 @@
     }
   }
   .project {
-    // &-slider {
-    //   // width: calc(300px * 8);
-    //   // animation: scroll-big 5s linear infinite;
-    // }
-
     &-item {
       flex-shrink: 0;
       width: 300px;
