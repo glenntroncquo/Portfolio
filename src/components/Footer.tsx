@@ -8,7 +8,11 @@ export const Footer = () => {
           Living, learning {'&'} leveling up one day at a time.
         </p>
         <div className='footer-socials'>
-          <a href=''>
+          <a
+            target='_blank'
+            rel='noreferrer'
+            href='https://www.instagram.com/glenn_troncquo/'
+          >
             <svg
               id='instagram-logo'
               xmlns='http://www.w3.org/2000/svg'
@@ -22,7 +26,11 @@ export const Footer = () => {
               />
             </svg>
           </a>
-          <a href=''>
+          <a
+            target='_blank'
+            rel='noreferrer'
+            href='https://be.linkedin.com/in/glenn-troncquo-7158b5209'
+          >
             <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'>
               <path
                 id='linkedin-logo'
@@ -30,7 +38,11 @@ export const Footer = () => {
               />
             </svg>
           </a>
-          <a href=''>
+          <a
+            target='_blank'
+            rel='noreferrer'
+            href='https://github.com/glenntroncquo'
+          >
             <svg
               xmlns='http://www.w3.org/2000/svg'
               width='48'

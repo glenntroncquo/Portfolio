@@ -78,7 +78,7 @@ export const Projects: React.FC = () => {
 
               <p>Technologies: React Native, Firebase, Spoonacular API</p>
 
-              <a href=''>Visit Github {'>'}</a>
+              <a href='https://github.com/glenntroncquo'>Visit Github {'>'}</a>
             </div>
           </div>
         </div>
@@ -87,6 +87,7 @@ export const Projects: React.FC = () => {
       <a
         href='https://github.com/glenntroncquo'
         target='_blank'
+        rel='noreferrer'
         className='github-button'
       >
         <span>

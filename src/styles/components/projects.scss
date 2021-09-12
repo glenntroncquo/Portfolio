@@ -94,9 +94,23 @@
       }
     }
 
-    &-info:hover {
-      opacity: 95%;
+    &-img:hover {
+      .project-item-info {
+        opacity: 95%;
+      }
     }
+
+    // &-info:hover {
+    //   opacity: 95%;
+    // }
+
+    // :hover{
+    //   display: none;
+    //   background-color: red;
+    //   &-info{
+    //     opacity: 95%;
+    //   }
+    // }
   }
 
   &-images-wrapper {
