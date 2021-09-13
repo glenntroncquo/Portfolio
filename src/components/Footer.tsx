@@ -5,7 +5,7 @@ export const Footer = () => {
     <div className='footer'>
       <div className='footer-wrapper'>
         <p className='footer-text'>
-          Living, learning {'&'} leveling up one day at a time.
+          Living, learning {'&'} & leveling up one day at a time.
         </p>
         <div className='footer-socials'>
           <a

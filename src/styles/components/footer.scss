@@ -3,18 +3,17 @@
   height: 320px;
   padding-top: 240px;
 
-  &-wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  p:first-child {
+  &-text {
     opacity: 0.9;
     font-size: 24px;
     margin-bottom: 16px;
     max-width: 290px;
     text-align: center;
+  }
+  &-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   p {
@@ -43,10 +42,10 @@
       transition: ease-out 0.2s;
     }
 
-    a:hover{
+    a:hover {
       background-color: white;
-      
-      svg{
+
+      svg {
         fill: $font-color-lime-green;
       }
     }
