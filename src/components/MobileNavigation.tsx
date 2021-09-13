@@ -45,7 +45,7 @@ export const MobileNavigation: React.FC = () => {
         </li>
 
         <li>
-          <a href='mailto:glenntroncquo1@gmail.com' onClick={toggleButton}>
+          <a href='#footerbox' onClick={toggleButton}>
             Contact
           </a>
         </li>

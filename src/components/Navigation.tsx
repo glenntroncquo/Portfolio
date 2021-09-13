@@ -15,7 +15,7 @@ export const Navigation = () => {
           <a href='#projects'>Projects</a>
         </li>
         <li>
-          <a href='mailto:glenntroncquo1@gmail.com'>Contact me</a>
+          <a href='#footerbox'>Contact me</a>
         </li>
       </ul>
     </nav>

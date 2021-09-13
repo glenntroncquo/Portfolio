@@ -27,8 +27,8 @@ export const Intro = () => {
             East-Flanders 😁
           </p>
 
-          <a className='intro-button' href='mailto:glenntroncquo1@gmail.com'>
-            Contact Me
+          <a className='intro-button' href='Glenn Troncquo.pdf' download>
+            Download CV
           </a>
         </div>
       </div>

@@ -11,9 +11,15 @@ export const Projects: React.FC = () => {
 
       <div className='project-images-wrapper'>
         <div className='project-slider'>
-          <div className='project-item'>
-            <img className='project-item-img' src='iPhone.svg' alt='' />
-            <div className='project-item-info'>
+          <div className='project-item' data-aos='zoom-in'>
+            <a
+              href='https://github.com/glenntroncquo/Meal_App'
+              target='_blank'
+              rel='noreferrer'
+            >
+              <img className='project-item-img' src='iPhone.svg' alt='' />
+            </a>
+            {/* <div className='project-item-info'>
               <h3>Meal App</h3>
               <p className='project-item-info-p'>
                 Meal planning app {'->'} <br />
@@ -26,12 +32,19 @@ export const Projects: React.FC = () => {
               <a href='https://github.com/glenntroncquo/Meal_App'>
                 Visit Github
               </a>
-            </div>
+            </div> */}
           </div>
 
-          <div className='project-item'>
-            <img className='project-item-img' src='revolut.png' alt='' />
-            <div className='project-item-info'>
+          <div className='project-item' data-aos='zoom-in'>
+            <a
+              href='https://glenntroncquo.github.io/Motion_Design/'
+              target='_blank'
+              rel='noreferrer'
+            >
+              <img className='project-item-img' src='revolut.png' alt='' />
+            </a>
+
+            {/* <div className='project-item-info'>
               <h3>Animation School Project</h3>
               <p className='project-item-info-p'>
                 Make a landing page for a brand of choice. Animate 4 sections of
@@ -43,16 +56,23 @@ export const Projects: React.FC = () => {
               <a href='https://glenntroncquo.github.io/Motion_Design/'>
                 Visit Website
               </a>
-            </div>
+            </div> */}
           </div>
 
-          <div className='project-item'>
-            <img
-              className='project-item-img'
-              src='asp.net.png'
-              alt='asp.net backend project'
-            />
-            <div className='project-item-info'>
+          <div className='project-item' data-aos='zoom-in'>
+            <a
+              href='https://github.com/glenntroncquo/Project_Backend'
+              target='_blank'
+              rel='noreferrer'
+            >
+              <img
+                className='project-item-img'
+                src='asp.net.png'
+                alt='asp.net backend project'
+              />
+            </a>
+
+            {/* <div className='project-item-info'>
               <h3>School Backend Project</h3>
               <p className='project-item-info-p'>
                 ASP.NET WebAPI backend project with Docker.
@@ -63,38 +83,9 @@ export const Projects: React.FC = () => {
               <a href='https://github.com/glenntroncquo/Project_Backend'>
                 Visit Github
               </a>
-            </div>
+            </div> */}
           </div>
-
-          {/* <div className='project-item'>
-            <img className='project-item-img' src='iPhone.svg' alt='' />
-
-            <div className='project-item-info'>
-              <h3>Meal App</h3>
-              <p className='project-item-info-p'>
-                Meal planning app {'->'} <br />
-                Sign up / Login. Explore new meals and add meals to calendar or
-                favorites.
-              </p>
-
-              <p>Technologies: React Native, Firebase, Spoonacular API</p>
-
-              <a href='https://github.com/glenntroncquo'>Visit Github {'>'}</a>
-            </div>
-          </div> */}
         </div>
-
-        {/* <div className='image'>
-          <img src='iPhone.svg' alt='iphone'/>
-          <div className='overlay'>
-
-            <div>
-              Hello world
-            </div>
-
-
-          </div>
-        </div> */}
       </div>
 
       <a

@@ -2,7 +2,7 @@ import React from 'react'
 
 export const FooterBox = () => {
     return (
-        <div className='footerbox'>
+        <div className='footerbox' id='footerbox'>
             <p>
                 Let's start a project together
             </p>
