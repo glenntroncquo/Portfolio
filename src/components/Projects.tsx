@@ -67,6 +67,7 @@ export const Projects: React.FC = () => {
           </div>
 
           <div className='project-item'>
+            
             <img className='project-item-img' src='iPhone.svg' alt='' />
             <div className='project-item-info'>
               <h3>Meal App</h3>
