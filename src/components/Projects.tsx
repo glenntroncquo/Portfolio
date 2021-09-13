@@ -11,7 +11,7 @@ export const Projects: React.FC = () => {
 
       <div className='project-images-wrapper'>
         <div className='project-slider'>
-          <div className='project-item' data-aos='zoom-in'>
+          <div className='project-item'>
             <img className='project-item-img' src='iPhone.svg' alt='' />
             <div className='project-item-info'>
               <h3>Meal App</h3>
@@ -24,12 +24,12 @@ export const Projects: React.FC = () => {
               <p>Technologies: React Native, Firebase, Spoonacular API</p>
 
               <a href='https://github.com/glenntroncquo/Meal_App'>
-                Visit Github {'>'}
+                Visit Github
               </a>
             </div>
           </div>
 
-          <div className='project-item' data-aos='zoom-in' data-aos-delay='250'>
+          <div className='project-item'>
             <img className='project-item-img' src='revolut.png' alt='' />
             <div className='project-item-info'>
               <h3>Animation School Project</h3>
@@ -41,7 +41,7 @@ export const Projects: React.FC = () => {
               <p>Technologies: Html, CSS, After Effects</p>
 
               <a href='https://glenntroncquo.github.io/Motion_Design/'>
-                Visit Website {'>'}
+                Visit Website
               </a>
             </div>
           </div>
@@ -61,14 +61,14 @@ export const Projects: React.FC = () => {
               <p>Technologies: ASP.NET, Docker, SQL</p>
 
               <a href='https://github.com/glenntroncquo/Project_Backend'>
-                Visit Github {'>'}
+                Visit Github
               </a>
             </div>
           </div>
 
           <div className='project-item'>
-            
             <img className='project-item-img' src='iPhone.svg' alt='' />
+
             <div className='project-item-info'>
               <h3>Meal App</h3>
               <p className='project-item-info-p'>
@@ -81,6 +81,18 @@ export const Projects: React.FC = () => {
 
               <a href='https://github.com/glenntroncquo'>Visit Github {'>'}</a>
             </div>
+          </div>
+        </div>
+
+        <div className='image'>
+          <img src='iPhone.svg' alt='iphone'/>
+          <div className='overlay'>
+
+            <div>
+              Hello world ?
+            </div>
+
+
           </div>
         </div>
       </div>
