@@ -66,7 +66,7 @@ export const Projects: React.FC = () => {
             </div>
           </div>
 
-          <div className='project-item'>
+          {/* <div className='project-item'>
             <img className='project-item-img' src='iPhone.svg' alt='' />
 
             <div className='project-item-info'>
@@ -81,20 +81,20 @@ export const Projects: React.FC = () => {
 
               <a href='https://github.com/glenntroncquo'>Visit Github {'>'}</a>
             </div>
-          </div>
+          </div> */}
         </div>
 
-        <div className='image'>
+        {/* <div className='image'>
           <img src='iPhone.svg' alt='iphone'/>
           <div className='overlay'>
 
             <div>
-              Hello world ?
+              Hello world
             </div>
 
 
           </div>
-        </div>
+        </div> */}
       </div>
 
       <a
