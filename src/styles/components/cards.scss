@@ -1,6 +1,6 @@
 .cards {
   padding: 0 32px;
-  margin-top: -32px;
+  // margin-top: -32px;
 
   margin-bottom: 144px;
 
@@ -45,6 +45,7 @@
     margin-bottom: 48px;
     font-size: 18px;
     line-height: 24px;
+    max-width: 239.4;
   }
 
   &-subtitle {
@@ -61,7 +62,7 @@
 
 @media (min-width: 320px) {
   .cards {
-    margin-top: -92px;
+    // margin-top: -92px;
   }
 }
 

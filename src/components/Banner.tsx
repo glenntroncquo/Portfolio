@@ -26,24 +26,22 @@ export const Banner = () => {
 
       <div className='banner-info' id='skills'>
         <div className='banner-text'>
-          <div>2</div>
+          <div  className='banner-text-years'> 2</div>
           <div>
-            Years <br />
-            School <br />
-            Experience
+            <p>Years</p>
+            <p>School</p>
+            <p>Experience</p>
           </div>
         </div>
         <div className='banner-text-bold'>
-          I started my journey as a Full Stack Developer 2 years ago at {' '}
+          I started my journey as a Full Stack Developer 2 years ago at{' '}
           <a href='https://www.howest.be/en' target='_blank' rel='noreferrer'>
             Howest
           </a>
-          ,
-          {' '}
+          ,{' '}
           <a href='https://mct.be/' rel='noreferrer' target='_blank'>
             MCT
-          </a>
-          {' '}
+          </a>{' '}
           to be specific. I'm still learning and hope to work on projects with
           you to broaden my experience :)
         </div>

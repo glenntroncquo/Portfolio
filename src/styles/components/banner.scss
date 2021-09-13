@@ -18,7 +18,7 @@
   &-text {
     text-align: center;
     margin-bottom: 32px;
-    :first-child {
+    &-years {
       color: $font-color-lime-green;
       font-size: 72px;
       margin-bottom: 12px;

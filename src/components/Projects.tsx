@@ -46,7 +46,7 @@ export const Projects: React.FC = () => {
             </div>
           </div>
 
-          <div className='project-item' data-aos='zoom-in' data-aos-delay='500'>
+          <div className='project-item'>
             <img
               className='project-item-img'
               src='asp.net.png'
@@ -66,7 +66,7 @@ export const Projects: React.FC = () => {
             </div>
           </div>
 
-          <div className='project-item' data-aos='zoom-in' data-aos-delay='750'>
+          <div className='project-item'>
             <img className='project-item-img' src='iPhone.svg' alt='' />
             <div className='project-item-info'>
               <h3>Meal App</h3>
