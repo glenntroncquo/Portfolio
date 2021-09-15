@@ -4,7 +4,11 @@ export const Cards: React.FC = () => {
   return (
     <div className='cards'>
       <div className='cards-wrapper'>
-        <div className='cards-layout' data-aos="flip-left" data-aos-duration="1000">
+        <div
+          className='cards-layout'
+          data-aos='flip-left'
+          data-aos-duration='1000'
+        >
           <img src='frontend.svg' alt='frontend logo' />
           <h3 className='cards-title'>Front-end Developer</h3>
           <p className='cards-info'>
@@ -28,7 +32,11 @@ export const Cards: React.FC = () => {
           </p>
         </div>
 
-        <div className='cards-layout'data-aos="flip-left" data-aos-duration="1000">
+        <div
+          className='cards-layout'
+          data-aos='flip-left'
+          data-aos-duration='1000'
+        >
           <img src='backend.svg' alt='logo backend' />
           <h3 className='cards-title'>Back-end Developer</h3>
           <p className='cards-info'>
@@ -40,17 +48,17 @@ export const Cards: React.FC = () => {
           <p className='cards-languages'>
             Asp.Net Core
             <br />
-            NodeJs
-            <br />
             MySQL
-            <br />
-            CosmosDB
             <br />
             NoSQL
           </p>
         </div>
 
-        <div className='cards-layout' data-aos='flip-left' data-aos-duration="1000">
+        <div
+          className='cards-layout'
+          data-aos='flip-left'
+          data-aos-duration='1000'
+        >
           <img src='Website.svg' alt='Others' />
           <h3 className='cards-title'>Other Skillsets</h3>
           <p className='cards-info'>

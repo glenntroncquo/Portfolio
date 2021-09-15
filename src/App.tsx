@@ -1,36 +1,19 @@
 import React from 'react';
-import { Banner } from './components/Banner';
-import { Cards } from './components/Cards';
-import { Footer } from './components/Footer';
-import { FooterBox } from './components/FooterBox';
-import { Intro } from './components/Intro';
 
-import { MobileNavigation } from './components/MobileNavigation';
-import { Navigation } from './components/Navigation';
-import { Projects } from './components/Projects';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { Contact } from './screens/contact';
+import { Home } from './screens/home';
 
 import './styles/screen.scss';
 
 function App() {
   return (
-    <div className='page'>
-      <header className='header'>
-        <Navigation />
-        <MobileNavigation />
-      </header>
-
-      <div className='body'>
-        <Intro />
-        <Banner />
-        <Cards />
-        <Projects />
-      </div>
-
-      <footer>
-        <FooterBox />
-        <Footer />
-      </footer>
-    </div>
+    <Router>
+      <Switch>
+        <Route exact path='/' component={Home} />
+        <Route path='/contact' component={Contact} />
+      </Switch>
+    </Router>
   );
 }
 

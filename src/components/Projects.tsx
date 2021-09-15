@@ -19,20 +19,6 @@ export const Projects: React.FC = () => {
             >
               <img className='project-item-img' src='iPhone.svg' alt='' />
             </a>
-            {/* <div className='project-item-info'>
-              <h3>Meal App</h3>
-              <p className='project-item-info-p'>
-                Meal planning app {'->'} <br />
-                Sign up / Login. Explore new meals and add meals to calendar or
-                favorites.
-              </p>
-
-              <p>Technologies: React Native, Firebase, Spoonacular API</p>
-
-              <a href='https://github.com/glenntroncquo/Meal_App'>
-                Visit Github
-              </a>
-            </div> */}
           </div>
 
           <div className='project-item' data-aos='zoom-in'>
@@ -43,20 +29,6 @@ export const Projects: React.FC = () => {
             >
               <img className='project-item-img' src='revolut.png' alt='' />
             </a>
-
-            {/* <div className='project-item-info'>
-              <h3>Animation School Project</h3>
-              <p className='project-item-info-p'>
-                Make a landing page for a brand of choice. Animate 4 sections of
-                the page.
-              </p>
-
-              <p>Technologies: Html, CSS, After Effects</p>
-
-              <a href='https://glenntroncquo.github.io/Motion_Design/'>
-                Visit Website
-              </a>
-            </div> */}
           </div>
 
           <div className='project-item' data-aos='zoom-in'>
@@ -71,19 +43,6 @@ export const Projects: React.FC = () => {
                 alt='asp.net backend project'
               />
             </a>
-
-            {/* <div className='project-item-info'>
-              <h3>School Backend Project</h3>
-              <p className='project-item-info-p'>
-                ASP.NET WebAPI backend project with Docker.
-              </p>
-
-              <p>Technologies: ASP.NET, Docker, SQL</p>
-
-              <a href='https://github.com/glenntroncquo/Project_Backend'>
-                Visit Github
-              </a>
-            </div> */}
           </div>
         </div>
       </div>
