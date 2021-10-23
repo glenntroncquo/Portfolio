@@ -22,7 +22,7 @@ export const Cards: React.FC = () => {
             <br />
             CSS
             <br />
-            SASS/SCSS
+            SASS/SCSS/Tailwindcss
             <br />
             Js
             <br />
@@ -47,6 +47,8 @@ export const Cards: React.FC = () => {
           <p className='cards-subtitle'>Languages I speak:</p>
           <p className='cards-languages'>
             Asp.Net Core
+            <br />
+            Nodejs - Express
             <br />
             MySQL
             <br />

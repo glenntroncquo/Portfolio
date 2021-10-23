@@ -1,0 +1,129 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+
+  p {
+    text-align: center;
+    margin-bottom: 32px;
+    color: #141c3a;
+    margin-top: 32px;
+    font-size: 32px;
+    max-width: 420px;
+  }
+
+  &-form {
+    width: 100%;
+    display: block;
+  }
+
+  &-home {
+    text-decoration: none;
+    color: #10cc8c;
+    font-size: 18px;
+    font-weight: 700;
+  }
+
+  &-label {
+    display: block;
+    margin-bottom: 8px;
+    color: rgba(41, 51, 71, 0.65);
+    font-size: 18px;
+  }
+
+  &-input {
+    display: block;
+    box-sizing: border-box;
+    color: rgba(9, 9, 10, 0.65);
+    font-size: 18px;
+    margin-bottom: 24px;
+    width: 100%;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 4px;
+    border: 1px solid #e6ecf8;
+    outline: none;
+  }
+
+  &-textarea {
+    display: block;
+  }
+
+  &-text {
+    max-width: 720px !important;
+    font-weight: 100 !important;
+    font-size: 32px !important;
+    text-align: center;
+    margin-bottom: 100px !important;
+  }
+
+  &-submit {
+    font-size: 20px;
+    border: 2px solid #10cc8c;
+    border-radius: 28px;
+    transition: all 0.3s ease-out;
+    width: 200px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    background-color: white;
+    color: #10cc8c;
+    padding: 9px 20px;
+    cursor: pointer;
+    &:hover {
+      background-color: #10cc8c;
+      color: white;
+    }
+  }
+
+  &-textbox {
+    textarea {
+      color: rgba(9, 9, 10, 0.65);
+      font-size: 18px;
+      box-sizing: border-box;
+      width: 100%;
+      max-width: 100%;
+      min-width: 100%;
+      height: 180px;
+      border: none;
+      border-radius: 4px;
+      border: 1px solid #e6ecf8;
+      outline: none;
+      padding: 10px 15px;
+    }
+  }
+}
+
+@media (min-width: 700px) {
+  .contact {
+    margin: 0 auto;
+    &-form {
+      max-width: 660px;
+    }
+
+    &-input {
+      width: 300px;
+      height: 56px;
+      padding: 10px 15px;
+    }
+
+    &-inputs {
+      display: flex;
+      justify-content: center;
+      justify-content: space-between;
+    }
+    &-textbox {
+      textarea {
+        width: 660px;
+        max-width: 660px;
+        min-width: 660px;
+        height: 250px;
+      }
+    }
+  }
+}

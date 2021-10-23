@@ -1,16 +1,13 @@
-import React from 'react'
+import React from 'react';
+import { Link } from 'react-router-dom';
 
 export const FooterBox = () => {
-    return (
-        <div className='footerbox' id='footerbox'>
-            <p>
-                Let's start a project together
-            </p>
-            <p>
-                Interested in working together? Let's queue up a chat!
-            </p>
+  return (
+    <div className='footerbox' id='footerbox'>
+      <p>Let's start a project together</p>
+      <p>Interested in working together? Let's queue up a chat!</p>
 
-            <a href="mailto:glenntroncquo1@gmail.com">Let's do this</a>
-        </div>
-    )
-}
+      <Link className='footerbox-contact' to='/contact'> Let's do this</Link>
+    </div>
+  );
+};

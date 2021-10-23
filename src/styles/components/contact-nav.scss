@@ -1,0 +1,36 @@
+.contact-navbar {
+  max-width: 1020px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 48px;
+
+  &-refresh {
+    margin-right: 24px;
+    cursor: pointer;
+    width: 20px;
+  }
+
+  &-close {
+    position: relative;
+    top: 2px;
+    cursor: pointer;
+    width: 18px;
+    transition: all ease-out 0.3s;
+  }
+}
+
+.contact-header {
+  max-width: 1250px;
+  margin: 0 auto;
+  padding: 32px;
+}
+
+@media (min-width: 700px) {
+  .contact-navbar {
+    &-refresh {
+      margin-right: 48px;
+    }
+  }
+}

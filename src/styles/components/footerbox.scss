@@ -20,18 +20,18 @@
   p {
     color: white;
     text-align: center;
+    max-width: 200px;
   }
   p:first-child {
     font-size: 22px;
     font-weight: 700;
   }
   p:nth-child(2) {
-    max-width: 200px;
     text-align: center;
     font-size: 18px;
   }
 
-  a {
+  &-contact {
     text-decoration: none;
     color: white;
     border: 2px solid $font-color-lime-green;
@@ -40,7 +40,7 @@
     transition: ease-out 0.3s;
   }
 
-  a:hover {
+  &-contact:hover {
     background-color: $font-color-lime-green;
   }
 }
@@ -62,9 +62,8 @@
   }
 }
 
-@media (min-width:1232px) {
-    .footerbox{
-        margin: 0 auto -83px;
-    }
-    
+@media (min-width: 1232px) {
+  .footerbox {
+    margin: 0 auto -83px;
+  }
 }

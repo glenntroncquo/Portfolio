@@ -2,6 +2,7 @@ import React from 'react';
 import { useState } from 'react';
 
 import { HamburgerSpring } from 'react-animated-burgers';
+import { Link } from 'react-router-dom';
 
 export const MobileNavigation: React.FC = () => {
   const [isActive, setIsActive] = useState(false);
@@ -45,9 +46,9 @@ export const MobileNavigation: React.FC = () => {
         </li>
 
         <li>
-          <a href='#footerbox' onClick={toggleButton}>
+          <Link to='/contact' onClick={toggleButton}>
             Contact
-          </a>
+          </Link>
         </li>
       </ul>
     </nav>

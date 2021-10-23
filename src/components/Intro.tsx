@@ -1,11 +1,4 @@
-import React from 'react';
-
-//@ts-ignore
-import AOS from 'aos';
-import 'aos/dist/aos.css';
-
 export const Intro = () => {
-  AOS.init();
   return (
     <section className='intro'>
       <div>
